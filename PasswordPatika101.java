@@ -17,6 +17,7 @@ public class Main {
 
 
         if(kullaniciadi.equals("java") && sifre.equals("patika")){
+            
             System.out.println("Bilgileriniz doğru giriş başarılı !");
             
         }
@@ -65,6 +66,7 @@ public class Main {
 
             }
             if(value==2){
+                
                 System.out.println("İşleminiz sonlandı");
             }
         }
