@@ -17,7 +17,7 @@ public class Main {
 
         if(kullaniciadi.equals("java") && sifre.equals("patika")){
             System.out.println("Bilgileriniz doğru giriş başarılı !");
-        }else if(!kullaniciadi.equals("java") && !sifre.equals("patika")){
+        }else if(!kullaniciadi.equals("java") || !sifre.equals("patika")){
             System.out.println("Bilgileriniz yanlış.");
             System.out.println("Yeni kullanıcı adı ve şifre oluşturmak ister misiniz?\n1-Evet\n2-Hayır");
             value = inp.nextInt();
