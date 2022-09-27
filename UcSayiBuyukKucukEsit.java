@@ -6,6 +6,7 @@ public class UcSayiBuyukKucukEsit {
       double a,b,c;
 
         System.out.println("Bu program girilen 3 sayıyı küçükten büyüğe sıralar");
+        
         System.out.print("a sayısı = ");
         a = inp.nextDouble();
         System.out.print("b sayısı = ");
@@ -51,9 +52,12 @@ public class UcSayiBuyukKucukEsit {
 
         }if(b==c && b<a){
             System.out.println("b=c<a");
+            
         }if(b==c && a<b){
             System.out.println("a<b=c");
         }
+        
         System.out.println("\nTeşekkürler !");
+        
     }
 }
